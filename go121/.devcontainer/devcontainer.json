@@ -1,0 +1,14 @@
+{
+  "name": "Go",
+  "dockerComposeFile": ["./compose.yaml"],
+  "service": "workspace",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "go.toolsManagement.autoUpdate": true
+      },
+      "extensions": ["golang.go"]
+    }
+  }
+}
